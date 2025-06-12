@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "pingTool": {
+      "commandName": "Project",
+      "commandLineArgs": "--ip 192.168.0.1"
+    }
+  }
+}
