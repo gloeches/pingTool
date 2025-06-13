@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\CSharp\\pingTool\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C664E42-8A89-4485-BF2E-0DE826F0AEA7}|pingTool.csproj|d:\\csharp\\pingtool\\nlog.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3C664E42-8A89-4485-BF2E-0DE826F0AEA7}|pingTool.csproj|solutionrelative:nlog.config||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C664E42-8A89-4485-BF2E-0DE826F0AEA7}|pingTool.csproj|d:\\csharp\\pingtool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C664E42-8A89-4485-BF2E-0DE826F0AEA7}|pingTool.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "nlog.config",
+              "DocumentMoniker": "D:\\CSharp\\pingTool\\nlog.config",
+              "RelativeDocumentMoniker": "nlog.config",
+              "ToolTip": "D:\\CSharp\\pingTool\\nlog.config",
+              "RelativeToolTip": "nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-13T17:33:24.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CSharp\\pingTool\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\CSharp\\pingTool\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T11:08:10.377Z",
               "EditorCaption": ""

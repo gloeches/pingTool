@@ -1,10 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "ZGLagM2rhf8=",
+  "dgSpecHash": "aS5XYygPJI4=",
   "success": true,
   "projectFilePath": "D:\\CSharp\\pingTool\\pingTool.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gloeches\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
+    "C:\\Users\\gloeches\\.nuget\\packages\\fluentassertions\\8.3.0\\fluentassertions.8.3.0.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.6\\microsoft.extensions.dependencyinjection.9.0.6.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\microsoft.extensions.logging\\9.0.6\\microsoft.extensions.logging.9.0.6.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.6\\microsoft.extensions.logging.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\microsoft.extensions.options\\9.0.6\\microsoft.extensions.options.9.0.6.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.6\\microsoft.extensions.primitives.9.0.6.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\nlog\\5.5.0\\nlog.5.5.0.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.6\\system.diagnostics.diagnosticsource.9.0.6.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\gloeches\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

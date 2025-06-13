@@ -7,16 +7,32 @@ using System.Diagnostics;
 using System.Timers;
 using System.CommandLine;
 using System.CommandLine.Invocation;
-string path = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData) + "\\agilent\\logs\\PingAsync\\";
+using System.Text.Json;
+using Microsoft.Extensions.Logging;
+using System.Transactions;
+using Microsoft.Extensions.DependencyInjection;
+using NLog;
+using NLog.Fluent;
+string path = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData) + "\\agilent\\logs\\PingTool\\";
 string dateTime = DateTime.Now.ToString();
 string createddate = Convert.ToDateTime(dateTime).ToString("yyyy-MM-dd-h-mm");
 string fileFailed = createddate+"pingfailed.txt";
 string filePass = createddate + @"pingPass.txt";
 int processId = Process.GetCurrentProcess().Id;
 
+//spàce to add logging
+Logger logger = LogManager.GetCurrentClassLogger();
+logger.Info("Test log");
+
+
+
+
+//start program
 System.Timers.Timer aTimer;
 Console.WriteLine($"Current process ID: {processId}");
+logger.Info($"Current process ID: {processId}");
 Console.WriteLine("PingAsync running.....");
+logger.Info("PingAsync running.....");
 string target = "";
 AutoResetEvent waiter = new AutoResetEvent(false);
 Ping pingSender = new Ping();
@@ -26,10 +42,13 @@ byte[] buffer = Encoding.ASCII.GetBytes(data);
 int timeout = 2000;
 PingOptions options = new PingOptions(64, true);
 Console.WriteLine("The application started at {0:HH:mm:ss.fff}", DateTime.Now);
+logger.Info("The application started at {0:HH:mm:ss.fff}",DateTime.Now);
 Console.WriteLine("Time to live: {0}", options.Ttl);
+logger.Info("Time to live: {0}", options.Ttl);
 //Console.WriteLine("Don't fragment: {0}", options.DontFragment);
 Console.WriteLine("The log files are saved : {0}", path);
-var ipOption = new Option<string>("´--ip")
+logger.Info("The log files are saved : {0}", path);
+var ipOption = new Option<string>("--ip")
 {
     Description = "Enter the ip or Hostname to ping. ",
     IsRequired = true
@@ -152,7 +171,7 @@ void OnTimedEvent(Object source, ElapsedEventArgs e)
 void SetTimer()
 {
     // Create a timer with a two second interval.
-    aTimer = new System.Timers.Timer(5000);
+    aTimer = new System.Timers.Timer(10000);
     // Hook up the Elapsed event for the timer. 
     aTimer.Elapsed += OnTimedEvent;
     aTimer.AutoReset = true;

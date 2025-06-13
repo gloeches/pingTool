@@ -1,0 +1,18 @@
+2025-06-13 23:09:27.5563 INFO Test log 
+2025-06-13 23:09:27.5735 INFO Current process ID: 6700 
+2025-06-13 23:09:27.5735 INFO PingAsync running..... 
+2025-06-13 23:09:27.5735 INFO The application started at 23:09:27.575 
+2025-06-13 23:09:27.5735 INFO Time to live: 64 
+2025-06-13 23:09:27.5800 INFO The log files are saved : C:\ProgramData\agilent\logs\PingAsync\ 
+2025-06-13 23:20:49.9367 INFO Test log 
+2025-06-13 23:20:49.9531 INFO Current process ID: 11556 
+2025-06-13 23:20:49.9531 INFO PingAsync running..... 
+2025-06-13 23:20:49.9551 INFO The application started at 23:20:49.955 
+2025-06-13 23:20:49.9551 INFO Time to live: 64 
+2025-06-13 23:20:49.9551 INFO The log files are saved : C:\ProgramData\agilent\logs\PingAsync\ 
+2025-06-13 23:21:02.3256 INFO Test log 
+2025-06-13 23:21:02.3422 INFO Current process ID: 15144 
+2025-06-13 23:21:02.3422 INFO PingAsync running..... 
+2025-06-13 23:21:02.3422 INFO The application started at 23:21:02.344 
+2025-06-13 23:21:02.3482 INFO Time to live: 64 
+2025-06-13 23:21:02.3482 INFO The log files are saved : C:\ProgramData\agilent\logs\PingAsync\ 

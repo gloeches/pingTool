@@ -28,3 +28,13 @@ D:\CSharp\pingTool\obj\Debug\net6.0\refint\pingTool.dll
 D:\CSharp\pingTool\obj\Debug\net6.0\pingTool.pdb
 D:\CSharp\pingTool\obj\Debug\net6.0\pingTool.genruntimeconfig.cache
 D:\CSharp\pingTool\obj\Debug\net6.0\ref\pingTool.dll
+D:\CSharp\pingTool\obj\Debug\net6.0\pingTool.sourcelink.json
+D:\CSharp\pingTool\bin\Debug\net6.0\FluentAssertions.dll
+D:\CSharp\pingTool\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CSharp\pingTool\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CSharp\pingTool\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\CSharp\pingTool\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CSharp\pingTool\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\CSharp\pingTool\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\CSharp\pingTool\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\CSharp\pingTool\bin\Debug\net6.0\NLog.dll
